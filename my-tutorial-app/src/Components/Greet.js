@@ -1,8 +1,11 @@
 import React from 'react'
 
 //Functional Componenet
-function Greet(){
-    return <h1>Hello Hunter</h1>
+const Greet = props => {
+    console.log(props)
+    return <div>
+        <h1>Hello {props.firstName} {props.lastName}!</h1>
+    </div>
 }
 
 
