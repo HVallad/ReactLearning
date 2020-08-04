@@ -1,18 +1,19 @@
-import React, {Component} from 'react';
-import './App.css';
-import Greet from './Components/Greet'
-import Welcome from './Components/Welcome';
-import Message from './Components/Message';
-import Counter from './Components/Counter';
-//import Hello from './Components/Hello'
+import React, { Component } from "react";
+import "./App.css";
+import Message from "./Components/Message";
+import Counter from "./Components/Counter";
+import Greet from "./Components/Greet";
+import Welcome from "./Components/Welcome";
 
 class App extends Component {
-  render(){
+  render() {
     return (
       <div className="App">
-          <Message/>
+        <Welcome firstName='Hunter' lastName='Vallad'/>
 
-          <Counter addValue='2'></Counter>
+        {/* <Message />
+        {/* <Greet firstName='Hunter' lastName='Vallad'/> }
+        <Counter addValue="1"/> */}
       </div>
     );
   }

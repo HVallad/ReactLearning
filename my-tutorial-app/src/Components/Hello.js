@@ -1,18 +1,11 @@
-import React from 'react'
-
-function test() {
-    alert('Test')
-}
+import React from "react";
 
 const Hello = () => {
-   return(
-       <div>
-           <h1>
-               Hello Hunter JSX
-           </h1>
-           <button onClick="test();">Test</button>
-       </div>
-   )
-}
+  return (
+    <div>
+      <h1>Hello Hunter JSX</h1>
+    </div>
+  );
+};
 
-export default Hello
+export default Hello;
