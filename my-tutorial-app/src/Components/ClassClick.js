@@ -5,14 +5,10 @@ export class ClassClick extends Component {
         console.log('Click button!')
     }
 
-    dubClickHandle(){
-        console.log('Clicker button!')
-    }
-
     render() {
         return (
             <div>
-                <button onDoubleClick={this.dubClickHandle} onClick={this.clickHandler}>Click Me!</button>
+                <button onClick={this.clickHandler}>Click Me!</button>
             </div>
         )
     }
